@@ -1,0 +1,50 @@
+/* MEDIAS QUERIES
+*******************/
+
+@media (max-width: 1030px) {
+  .vantagens-conteudo {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+
+    .motivo {
+        flex: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+  .vantagens-box-esquerda {
+    display: none;
+  }
+
+  .vantagens-box-direita {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .vantagens {
+    background-size: auto 100px;
+    background-position: top;
+    background-repeat: repeat-x;
+  }
+
+  .footer-content {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .nav-footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 550px) {
+    .apresentacao-text > h1 {
+        font-size: 32px;
+    }
+  }
+}

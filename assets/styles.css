@@ -8,16 +8,17 @@
 
 .apresentacao {
   background-image: url("./img/fundo.jpg");
-  height: 80vh;
+  height: 470px;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 .apresentacao-text {
   position: absolute;
   top: 200px;
-  left: 180px;
+  left: 13%;
   color: white;
 }
 
@@ -30,11 +31,12 @@
 }
 
 .motivos {
-  padding: 100px 180px;
+  padding: 100px 13%;
 }
 
 .motivo {
-  margin-top: 50px;
+  padding-top: 30px;
+  min-width: 190px;
 }
 
 .img-motivo {
@@ -43,7 +45,7 @@
 
 .vantagens {
   background: url("./img/pattern.png") no-repeat rgb(209, 209, 209);
-  height: 272px;
+  min-height: 272px;
 }
 
 .vantagens-conteudo {
@@ -54,6 +56,10 @@
 .img-vantagens {
   height: 212px;
   width: auto;
+}
+
+.vantagens-box-esquerda, .vantagens-box-direita {
+  min-width: 355px;
 }
 
 .vantagens-box-direita > p {
@@ -76,6 +82,10 @@
     color: #fff;
     margin: 0 auto;
     text-align: center;
+}
+
+.footer-content {
+  min-width: 300px;
 }
 
 .img-app {
