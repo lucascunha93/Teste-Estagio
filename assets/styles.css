@@ -1,0 +1,172 @@
+/* Geral 
+*************/
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.apresentacao {
+  background-image: url("./img/fundo.jpg");
+  height: 80vh;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.apresentacao-text {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  color: white;
+}
+
+.baixe-app-box {
+  background: rgb(74, 74, 255);
+  width: 200px;
+  border-radius: 0 20px 0 0;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.motivos {
+  padding: 100px 180px;
+}
+
+.motivo {
+  margin-top: 50px;
+}
+
+.img-motivo {
+  padding-bottom: 30px;
+}
+
+.vantagens {
+  background: url("./img/pattern.png") no-repeat rgb(209, 209, 209);
+  height: 272px;
+}
+
+.vantagens-conteudo {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.img-vantagens {
+  height: 212px;
+  width: auto;
+}
+
+.vantagens-box-direita > p {
+    margin-top:  20px;
+}
+
+.vantagens-box-direita > button {
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 7px 13px;
+}
+
+.vantagens-box-direita > button > p {
+    margin: 0 auto;
+}
+
+.footer-azul {
+    background: rgb(15, 73, 218);
+    height: 250px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-app {
+    border-radius: 5px;
+    background: rgba(63, 63, 63, 0.523);
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.footer {
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-footer > a {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.nav-footer > a {
+    margin: 10px 10px;
+}
+
+.nav-footer > a > i:hover {
+    transition: all 1s;
+}
+
+.nav-footer > a > i:hover {
+    font-size: 30px;
+}
+
+/* Tipografia 
+************/
+
+a {
+  color: #fff;
+}
+
+a:link {
+  text-decoration: none;
+}
+.font-cinza {
+  color: rgb(85, 85, 85);
+}
+
+.font-azul {
+  color: rgb(119, 119, 255);
+}
+
+.btn {
+  font-size: 10px;
+  margin: 5px 10px;
+}
+
+.atendimento {
+  font-size: 12px;
+  margin: 5px 10px;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.botao-azul {
+  color: white !important;
+}
+
+.atendimento:hover {
+  color: blue !important;
+}
+
+.play-text {
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.font-light {
+    font-weight: 100;
+}
+
+.baixe-app-box > p {
+  font-size: 12px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+}
