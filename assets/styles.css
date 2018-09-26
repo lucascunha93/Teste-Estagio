@@ -1,6 +1,12 @@
 /* Geral 
 *************/
 
+.barra-navegacao {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
 .links {
   display: flex;
   justify-content: center;
@@ -17,7 +23,7 @@
 
 .apresentacao-text {
   position: absolute;
-  top: 200px;
+  top: 130px;
   left: 13%;
   color: white;
 }
@@ -86,6 +92,12 @@
 
 .footer-content {
   min-width: 300px;
+}
+
+.footer-content > h4 {
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
 }
 
 .img-app {
